@@ -188,6 +188,95 @@ a {
 }
 
 
+
+
+/* SERVICES CSS STARTS BELOW */
+.services-header-img {
+	width: 100%;
+
+}
+
+.services {
+	padding: 4% 0;
+    border-bottom: 1px solid black;
+}
+
+.services h2 {
+    font-size: 40px;
+}
+
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 2% 0;
+	border-bottom: 1px solid black;
+}
+
+section article {
+    flex-direction: column;
+	justify-content: space-around;
+	padding: 2%;
+	border: 1px solid black;
+	width: 48%;
+	margin: 2% 0;
+	background-color: whitesmoke;
+}
+
+.learn-more {
+	display: flex;
+	padding: 2%;
+	border: 1px solid black;
+	width: 40%;
+	justify-content: center;
+	text-decoration: none;
+	border-radius: 5px;
+	color: black;
+	background-color: white;
+}
+
+article p {
+	padding: 2%;
+	margin-bottom: 4%;
+}
+
+
+.container-two {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3% 0;
+}
+
+.container-two section {
+	justify-content: space-between;
+	width: 45%;
+    padding: 4% 0;
+    border: none;
+}
+
+.info {
+    padding: 2% 0;
+}
+
+ul {
+	line-height: 1.5;
+	padding: 4% 4%;
+	list-style: disc;
+
+}
+
+footer {
+	text-align: center;
+	margin: 5% 0 2% 0;
+}
+
+/* SERVICES CSS ENDS HERE! */
+
+
+
 /* max width 800px media query TABLET view starts below! */
 @media (max-width: 800px) {
     html, body {
@@ -279,8 +368,6 @@ a {
         flex-direction: column-reverse;
         align-items: center;
     }
-    
-
     
     .header-container nav {
         flex-direction: column;
