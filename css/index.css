@@ -343,6 +343,13 @@ footer {
 
 }
 
+.services-section  article{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
 .contact{
     padding: 4% 0;
 }
@@ -350,6 +357,19 @@ footer {
 .copyright {
     margin-bottom: 1%;
 }
+
+.container-two {
+    justify-content: center;
+}
+
+.container-two section{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
  }
 /* tablet view ends here!*/
 
@@ -419,5 +439,14 @@ footer {
     .third-section article {
         width: 100%;
         padding: 5% 0;
+    }
+
+    .services-section article {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .learn-more {
+        margin: auto;
     }
 }
