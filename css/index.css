@@ -206,7 +206,7 @@ a {
 }
 
 
-section {
+.services-section {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -214,7 +214,7 @@ section {
 	border-bottom: 1px solid black;
 }
 
-section article {
+.services-section article {
     flex-direction: column;
 	justify-content: space-around;
 	padding: 2%;
@@ -446,7 +446,5 @@ footer {
         text-align: center;
     }
 
-    .learn-more {
-        margin: auto;
-    }
+
 }
